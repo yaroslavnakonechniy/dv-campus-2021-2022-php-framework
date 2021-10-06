@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello, World!</title>
+    <title>Hello, World! Yaroslav</title>
 </head>
 <body>
 <p style="font-size: 48px;">Hello, World!</p>
