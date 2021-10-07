@@ -25,6 +25,15 @@ switch($requestUri) {
         break;
 }
 
+if (!isset($page)) {
+    header('HTTP/1.0 404 Not Found');
+    exit(0);
+}
+
+header('Content-Type: text/html; charset=utl-8');
+ob_start();
+
 require_once $page;
+echo ob_get_clean();
 
 ?>
